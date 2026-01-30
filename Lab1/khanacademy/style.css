@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f3f4f6;
+    color: #111827;
+}
+
+#main {
+    padding: 24px;
+    background: white;
+    border-bottom: 2px solid #e5e7eb;
+}
+
+.subtitle {
+    margin-top: 6px;
+    color: #4b5563;
+}
+
+h1, h2 {
+    margin: 0 0 12px 0;
+}
+
+.container {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.card {
+    background: white;
+    padding: 18px;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    margin-bottom: 16px;
+}
+
+.card p {
+    line-height: 1.5;
+}
+
+.menu > li {
+    margin: 6px 0;
+}
+
+.menu li:first-child {
+    font-weight: bold;
+}
+
+.highlight {
+    color: #2563eb;
+}
+
+.image {
+    width: 120px;
+    display: block;
+    margin: 12px 0;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 14px;
+    background: #111827;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background: #2563eb;
+}
+
+h2 + p {
+    color: #374151;
+}
+
+.link:hover {
+    color: #dc2626;
+}
+
+.footer {
+    text-align: center;
+    padding: 14px;
+    color: #6b7280;
+}
+
+.nav {
+    margin-top: 12px;
+}
+
+.nav a {
+    margin-right: 12px;
+    text-decoration: none;
+    color: #2563eb;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.simple-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.simple-table th,
+.simple-table td {
+    border: 1px solid #e5e7eb;
+    padding: 10px;
+    text-align: left;
+}
+
+.overflow-box {
+    width: 240px;
+    height: 60px;
+    overflow: auto;
+    border: 1px solid #e5e7eb;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.position-box {
+    position: relative;
+    padding: 16px;
+    border: 1px solid #e5e7eb;
+    margin-top: 12px;
+}
+
+.badge {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: #2563eb;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.float-wrap {
+    margin-top: 12px;
+}
+
+.float-img {
+    float: left;
+    width: 70px;
+    margin-right: 12px;
+    margin-bottom: 6px;
+}
+
+.clear {
+    clear: both;
+}

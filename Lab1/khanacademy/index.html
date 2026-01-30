@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTML & CSS Lab (Khan Academy)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+<header id="main">
+  <h1>HTML & CSS Lab Work</h1>
+  <p class="subtitle">
+    Topics covered: Intro to HTML → More CSS Selectors
+  </p>
+
+  <a class="btn" href="https://www.khanacademy.org/computing/computer-programming/html-css" target="_blank">
+    Khan Academy Course
+  </a>
+
+  <nav class="nav">
+    <a href="#learned">Learned</a>
+    <a href="#selectors">Selectors</a>
+    <a href="#table">Table</a>
+    <a href="#layout">Layout</a>
+  </nav>
+</header>
+
+<main class="container">
+
+  <section id="learned" class="card">
+    <h2>What I learned</h2>
+    <p>
+      I practiced basic HTML structure, text formatting, images, links, and lists.
+      I also learned how to style elements using CSS and selectors.
+    </p>
+
+    <img
+            class="image"
+            src="https://www.kasandbox.org/programming-images/avatars/mr-pants.png"
+            alt="Demo image"
+    />
+
+    <ul class="menu">
+      <li><span class="highlight">HTML</span> basics</li>
+      <li>CSS properties</li>
+      <li>Selectors and pseudo-classes</li>
+    </ul>
+  </section>
+
+  <section id="selectors" class="card">
+    <h2>More CSS selectors</h2>
+    <p>This section demonstrates multiple selectors and pseudo-classes.</p>
+
+    <div class="note">
+      <p>
+        Tip: Hover the button and the link below to see <b>:hover</b>.
+      </p>
+      <a class="link" href="https://www.google.com" target="_blank">Example link</a>
+    </div>
+  </section>
+
+  <section id="table" class="card">
+    <h2>HTML table example</h2>
+    <p>Simple table to demonstrate table tags.</p>
+
+    <table class="simple-table">
+      <tr>
+        <th>Topic</th>
+        <th>Status</th>
+      </tr>
+      <tr>
+        <td>Intro to HTML</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>Intro to CSS</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>More HTML tags</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>CSS layout</td>
+        <td>Done</td>
+      </tr>
+      <tr>
+        <td>More CSS Selectors</td>
+        <td>Done</td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="layout" class="card">
+    <h2>CSS layout demo</h2>
+    <p>Box model, overflow, position, and float examples.</p>
+
+    <div class="overflow-box">
+      This is a long text inside a small container to demonstrate overflow.
+      This is a long text inside a small container to demonstrate overflow.
+      This is a long text inside a small container to demonstrate overflow.
+    </div>
+
+    <div class="position-box">
+      Position box
+      <span class="badge">NEW</span>
+    </div>
+
+    <div class="float-wrap">
+      <img
+              class="float-img"
+              src="https://www.kasandbox.org/programming-images/avatars/marcimus.png"
+              alt="Float demo"
+      />
+      <p>
+        This paragraph wraps around the image using <b>float</b>.
+        Float is an old layout technique, but it is included in this course.
+      </p>
+    </div>
+
+    <div class="clear"></div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>Askar Kulakhmetov</p>
+</footer>
+</body>
+</html>

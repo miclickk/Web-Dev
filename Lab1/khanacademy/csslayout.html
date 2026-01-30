@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Spans + Div + Borders + Position + Float</title>
+  <style>
+    .first-sentence {
+      font-weight: bold;
+    }
+
+    .info {
+      width: 70%;
+      height: 200px;
+      background: rgb(219, 235, 255);
+      overflow: auto;
+    }
+
+    .photo {
+      width: 200px;
+      border: 8px solid white;
+      box-shadow: 0 0 0 3px rgb(120, 80, 40);
+      margin: 6px;
+    }
+
+    #greeting {
+      background: rgb(255, 255, 0);
+      border: 2px solid black;
+      font-family: "Comic Sans MS", fantasy;
+      padding: 5px;
+      width: 262px;
+    }
+
+    #creature {
+      position: absolute;
+      top: 210px;
+      left: 160px;
+      width: 120px;
+    }
+
+    #cloud-pic {
+      float: left;
+      margin-right: 12px;
+      width: 120px;
+    }
+
+    #cloud-sidebar {
+      background: rgb(255, 254, 217);
+      padding: 10px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+
+<body>
+<h1>Groupers</h1>
+
+<p>
+  <span class="first-sentence">Groupers are teleosts (ray-finned fishes), typically having a stout body and a large mouth.</span>
+  They can be quite large, and lengths over a meter and weights up to 100 kg are not uncommon.
+</p>
+
+<p>
+  <span class="first-sentence">Their mouths and gills form a powerful sucking system that sucks their prey in from a distance.</span>
+  They also use their mouths to dig into sand to form their shelters under big rocks.
+</p>
+
+<a href="http://en.wikipedia.org/wiki/Grouper">Read more on Wikipedia</a>
+
+<hr>
+
+<h1>The ocean</h1>
+
+<div class="info">
+  <img class="pic" src="https://www.kasandbox.org/programming-images/landscapes/beach-in-hawaii.png" alt="Photo of rocky ocean beach in Hawaii" width="300">
+  <p>
+    The ocean covers most of Earth’s surface and is home to a huge variety of life.
+    It affects climate, weather, and supports ecosystems worldwide.
+  </p>
+  <p>
+    Some parts of the ocean are deep and mysterious, while others are warm and full of coral reefs.
+    We still explore and discover new species there.
+  </p>
+</div>
+
+<hr>
+
+<h1>Boxers are beautiful?</h1>
+
+<div class="photo-gallery">
+  <img class="photo" src="https://www.kasandbox.org/programming-images/animals/boxer.png" alt="Boxer dog 1">
+  <img class="photo" src="https://www.kasandbox.org/programming-images/animals/boxer.png" alt="Boxer dog 2">
+  <img class="photo" src="https://www.kasandbox.org/programming-images/animals/boxer.png" alt="Boxer dog 3">
+</div>
+
+<hr>
+
+<h1>Position planet</h1>
+
+<img src="https://www.kasandbox.org/programming-images/space/planet.png" alt="Planet" width="350">
+<img id="creature" src="https://www.kasandbox.org/programming-images/avatars/leaf-green.png" alt="Creature">
+
+<div id="greeting">Hello! Welcome to position planet!</div>
+
+<hr>
+
+<h1>What are clouds?</h1>
+
+<img id="cloud-pic" src="https://www.kasandbox.org/programming-images/landscapes/clouds-from-plane.png" alt="Clouds">
+
+<div id="cloud-sidebar">
+  <h5>Why are some clouds yellow?</h5>
+  <p>
+    Yellowish clouds may occur in the late spring through early fall months during forest fire season.
+    The yellow color is due to the presence of pollutants in the smoke.
+  </p>
+</div>
+
+<p>
+  In meteorology, a cloud is a visible mass of liquid droplets or frozen crystals made of water
+  or various chemicals suspended in the atmosphere.
+</p>
+</body>
+</html>
