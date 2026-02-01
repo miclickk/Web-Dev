@@ -1,0 +1,51 @@
+body {
+    background-color: #e8c4c4;
+    font-family: "Times New Roman", sans-serif;
+    font-size: 20px;
+    padding: 40px;
+}
+
+h1 {
+    color: #222;
+    font-size: 32px;
+}
+
+h2 {
+    color: #444;
+    font-size: 20px;
+}
+
+#name-title {
+    text-decoration: underline;
+}
+
+a {
+    color: darkgreen;
+}
+
+a:hover {
+    color: darkred;
+}
+
+ol {
+    padding-left: 45px;
+}
+
+ul {
+    padding-left: 25px;
+    list-style-type: square;
+}
+
+table {
+    border-collapse: collapse;
+    width: 10%;
+}
+
+th, td {
+    border: 1px solid #870a0a;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #ddd;
+}
