@@ -2,8 +2,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #f5f6f8;
-    color: #222;
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(2, 13, 6, 1) 66%);
 }
 
 .header {
@@ -24,6 +23,7 @@ body {
 
 .main {
     padding: 40px 16px;
+
 }
 
 .card {
@@ -33,11 +33,13 @@ body {
     border: 1px solid #e6e8ee;
     border-radius: 10px;
     padding: 18px;
+    background: linear-gradient(90deg,rgba(2, 13, 6, 1) 0%, rgba(42, 123, 155, 1) 66%);
 }
 
 .title h1 {
     font-size: 28px;
     margin-bottom: 6px;
+    font-color:white;
 }
 
 .subtitle {
@@ -83,7 +85,8 @@ body {
     margin-top: 16px;
     border: 1px solid #e6e8ee;
     border-radius: 10px;
-    overflow: hidden;
+    overflow: scroll;
+    word-break: break-all               ;
 }
 
 .todo-item {
