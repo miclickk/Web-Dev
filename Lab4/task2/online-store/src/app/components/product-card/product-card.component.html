@@ -1,0 +1,32 @@
+<article class="card">
+  <a class="imgWrap" [href]="product.link" target="_blank" rel="noopener noreferrer">
+    <img class="mainImg" [src]="product.image" [alt]="product.name" />
+  </a>
+
+  <div class="body">
+    <h3 class="title">
+      <a [href]="product.link" target="_blank" rel="noopener noreferrer">{{ product.name }}</a>
+    </h3>
+
+    <p class="desc">{{ product.description }}</p>
+
+    <div class="meta">
+      <div class="price">{{ product.price | number }} ₸</div>
+
+      <div class="rating">
+        <span class="stars">
+          <span *ngFor="let s of starsCount(product.rating)">
+            <span *ngIf="s === 1">★</span><span *ngIf="s === 0">☆</span>
+          </span>
+        </span>
+        <span class="badge">{{ product.rating }}</span>
+      </div>
+    </div>
+
+    <div class="thumbs" *ngIf="product.images?.length">
+      <img class="thumb" *ngFor="let img of product.images.slice(0, 3)" [src]="img" [alt]="product.name" />
+    </div>
+
+    <a class="btn" [href]="product.link" target="_blank" rel="noopener noreferrer">Open on Kaspi</a>
+  </div>
+</article>
