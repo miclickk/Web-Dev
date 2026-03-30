@@ -1,2 +1,56 @@
+
+.idea/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+db.sqlite3
+=======
+# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Node
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/mcp.json
+.history/*
+
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+__screenshots__/
+
+# System files
 .DS_Store
-**/.DS_Store
+Thumbs.db
+>>>>>>> 5741749780ba5263b4a27b4e082b12f7c3c9f829
+Lab6/node_modules/
+Lab6/.angular/
